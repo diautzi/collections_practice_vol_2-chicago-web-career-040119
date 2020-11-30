@@ -1,8 +1,8 @@
 # your code goes here
 def begins_with_r(array)
-  array.select do |name|
-    name[0] == "r"
-  end
+  array.all? do |name|
+  name[0] == "r"
+end
 end
 
 # def contain_a(array)
